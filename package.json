@@ -1,0 +1,13 @@
+{
+  "name": "routes-json",
+  "version": "1.0.0",
+  "main": "generate.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/generate.ts ./input.json",
+    "test": "ts-node src/test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
