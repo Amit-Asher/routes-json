@@ -28,21 +28,21 @@ ______________________________________________________________________
 consider the following json:
 ```javascript
 {
-  "domain": "sports.yahoo.com",
-  "routes": {
-    "nba": {
-      "news": null,
-      "scoreboard": null,
-      "teams": {
-        "cle": {
-          "stats": null
-        },
-        "gsw": null
-      },
-      "players": null,
-      "injuries": null
+    "domain": "sports.yahoo.com",
+    "routes": {
+        "nba": {
+            "news": null,
+            "scoreboard": null,
+            "teams": {
+                "cle": {
+                    "stats": null
+                },
+                "gsw": null
+            },
+            "players": null,
+            "injuries": null
+        }
     }
-  }
 }
 ```
 
