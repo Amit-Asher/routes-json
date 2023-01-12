@@ -55,3 +55,12 @@ Routes.Nba.Players.path; // "sports.yahoo.com/nba/players"
 Routes.Nba.Injuries.path; // "sports.yahoo.com/nba/injuries"
 ```
 
+and, with react-router-dom:
+```typescript
+history.push(Routes.Nba.News.path);
+history.push(Routes.Nba.Scoreboard.path);
+history.push(Routes.Nba.Teams.Cle.Stats.path);
+history.push(Routes.Nba.Teams.Gsw.path);
+history.push(Routes.Nba.Players.path);
+history.push(Routes.Nba.Injuries.path);
+```
