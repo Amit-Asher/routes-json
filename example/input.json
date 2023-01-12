@@ -1,12 +1,16 @@
 {
-    "outfile": "./routes.ns.ts",
+    "outfile": "./dist/routes.ns.ts",
     "domain": "sports.yahoo.com",
     "routes": {
         "nba": {
             "news": null,
             "scoreboard": null,
-            "stats": null,
-            "teams": null,
+            "teams": {
+                "cle": {
+                    "stats": null
+                },
+                "gsw": null
+            },
             "players": null,
             "injuries": null
         },

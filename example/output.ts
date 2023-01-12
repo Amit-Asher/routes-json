@@ -11,11 +11,19 @@ export namespace Routes {
 
         export const News = { path: "sports.yahoo.com/nba/news" };
         export const Scoreboard = { path: "sports.yahoo.com/nba/scoreboard" };
-        export const Stats = { path: "sports.yahoo.com/nba/stats" };
-        export const Teams = { path: "sports.yahoo.com/nba/teams" };
         export const Players = { path: "sports.yahoo.com/nba/players" };
         export const Injuries = { path: "sports.yahoo.com/nba/injuries" };
-        
+        export namespace Teams {
+            export const path = "sports.yahoo.com/nba/teams";
+
+            export const Gsw = { path: "sports.yahoo.com/nba/teams/gsw" };
+            export namespace Cle {
+                export const path = "sports.yahoo.com/nba/teams/cle";
+
+                export const Stats = { path: "sports.yahoo.com/nba/teams/cle/stats" };
+                
+            }
+        }
     }
 
     export namespace Sportsbook {
