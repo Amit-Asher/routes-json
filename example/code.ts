@@ -1,10 +1,8 @@
 import { Routes } from "./output";
 
-console.log(Routes.path);
-console.log(Routes.Nba.News.path);
-console.log(Routes.Nba.Players.path);
-console.log(Routes.Nba.Scoreboard.path);
-console.log(Routes.Golf.path);
-console.log(Routes.Soccer.path);
-console.log(Routes.Sportsbook.Experts.path);
-console.log(Routes.Sportsbook.News.path);
+console.log(Routes.Nba.News.path); // "sports.yahoo.com/nba/news"
+console.log(Routes.Nba.Scoreboard.path); // "sports.yahoo.com/nba/scoreboard"
+console.log(Routes.Nba.Teams.Cle.Stats.path); // "sports.yahoo.com/nba/teams/cle/stats"
+console.log(Routes.Nba.Teams.Gsw.path); // "sports.yahoo.com/nba/teams/gsw"
+console.log(Routes.Nba.Players.path); // "sports.yahoo.com/nba/players"
+console.log(Routes.Nba.Injuries.path); // "sports.yahoo.com/nba/injuries"
