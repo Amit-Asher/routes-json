@@ -4,10 +4,18 @@
   "main": "generate.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/generate.ts ./input.json",
+    "compile": "tsc",
+    "release": "ts-node scripts/release.ts",
+    "clean-win": "rmdir /s /q build",
+    "build": "npm run compile && npm run release",
+    "build-win": "npm run build && npm run clean-win",
+    "start": "ts-node src/index.ts ./input.json",
     "test": "ts-node src/test.ts"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
-  }
+    "@types/node": "^18.11.18",
+    "pkg": "^5.8.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {}
 }

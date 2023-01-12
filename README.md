@@ -13,7 +13,6 @@ ______________________________________________________________________
 4. ts-node src/generate.ts ./example/input.json (dist folder will created)
 5. ts-node getting-started/test.ts
 
-
 ### HOW TO USE
 1. create Json input file with the following properties:
 - domain
