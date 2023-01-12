@@ -10,7 +10,7 @@ ______________________________________________________________________
 1. clone the project
 2. cd to project folder
 3. run "yarn" (install dependencies)
-4. ts-node src/generate.ts ./example/input.json (dist folder will created)
+4. ts-node src/index.ts ./example/input.json (dist folder will created)
 5. ts-node getting-started/test.ts
 
 ### HOW TO USE
